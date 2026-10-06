@@ -8,8 +8,8 @@ BIN_DIR="$HOME/.local/bin"
 mkdir -p "$BIN_DIR"
 cp .build/release/ClaudeMeter "$BIN_DIR/claude-meter-widget"
 
-PLIST_DST="$HOME/Library/LaunchAgents/com.snstanton.claudemeter.plist"
-sed "s#__BIN_PATH__#$BIN_DIR/claude-meter-widget#" com.snstanton.claudemeter.plist > "$PLIST_DST"
+PLIST_DST="$HOME/Library/LaunchAgents/com.veevalabs.claudemeter.plist"
+sed "s#__BIN_PATH__#$BIN_DIR/claude-meter-widget#" com.veevalabs.claudemeter.plist > "$PLIST_DST"
 
 launchctl unload "$PLIST_DST" 2>/dev/null || true
 launchctl load "$PLIST_DST"

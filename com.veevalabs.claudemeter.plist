@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.snstanton.claudemeter</string>
+    <string>com.veevalabs.claudemeter</string>
     <key>ProgramArguments</key>
     <array>
         <string>__BIN_PATH__</string>
