@@ -40,7 +40,7 @@ against a budget you set in `~/.claude-meter/config.json`:
 ## Uninstall
 
 ```sh
-launchctl unload ~/Library/LaunchAgents/com.scottstanton.claudemeter.plist
-rm ~/Library/LaunchAgents/com.scottstanton.claudemeter.plist
+launchctl unload ~/Library/LaunchAgents/com.snstanton.claudemeter.plist
+rm ~/Library/LaunchAgents/com.snstanton.claudemeter.plist
 rm ~/.local/bin/claude-meter-widget
 ```
