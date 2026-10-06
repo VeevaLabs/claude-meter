@@ -60,3 +60,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# ClaudeMeter runtime (written by the installed LaunchAgent)
+claudemeter.log
+claudemeter.err.log
